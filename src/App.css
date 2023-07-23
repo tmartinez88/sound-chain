@@ -3,7 +3,29 @@
   background-color:black;
   padding: 25px;
 }
+.navy {
+  background-color: transparent;
+  border-style:solid;
+  outline-color: red;
+  outline-width: 1px;
+  border-radius: 25px;
+  border-color: whitesmoke;
+  box-shadow: 3px 3px 3px blue;
+}
+body { 
+  /*animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;*/
+  background-color: blue;
+}
 
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
 .metaConnect {
   position:absolute;
   right:0px;
@@ -17,11 +39,15 @@
   background-color:transparent;
   font-size: calc(3 + 1vh);
   align-items: center;
+  box-shadow: 3px 3px 3px red;
+  cursor: pointer;
 }
+
 .UI {
   margin:0px;
   padding:0px;
 }
+
 .canvasSpectrum {
   position:absolute;
   width: 256px;
@@ -32,6 +58,7 @@
   top: 50%;
   left: 50%;
 }
+
 .canvasOverlay {
   position:absolute;
   width: 256px;
@@ -41,7 +68,7 @@
   box-shadow: 8px 8px 1px grey;
   top: 50%;
   left: 50%;
-
+  cursor: pointer;
 }
 
 .audioParams {
@@ -53,7 +80,7 @@
   border-style: solid;
   border-color:black;
   color:black;
-  background-color:transparent;
+  background-color:whitesmoke;
   font-size: 25px;
   border-radius: 25px;
   border-width:1px;

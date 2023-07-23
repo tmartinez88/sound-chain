@@ -7,15 +7,15 @@ function App() {
 
       <header className="App-header">
         {/*<img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
+        <div className='navy'>
           3ns3mbl3 is a collaborative Web3 Music Composition tool.
-        </p>
-        <p>
+        </div>
+        <div className='navy'>
           Collect Spectral NFTs for access to the
-        </p>
-        <p>
+        </div>
+        <div className='navy'>
           Connect your Metamask Wallet to get started.
-        </p>
+        </div>
 
       </header>
 
